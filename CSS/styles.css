@@ -17,6 +17,7 @@ body {
   text-decoration: none;
   font-family: 'Righteous', cursive;
   font-size: 25px;
+  position: sticky;
 }
 
 .navbar a {
@@ -25,6 +26,12 @@ body {
 
 .navbar a : hover{
   text-decoration: none;
+  color: white;
+}
+
+.navbar a : visited{
+  text-decoration: none;
+  color: white;
 }
 
 .footer{
@@ -43,5 +50,16 @@ body {
 
 .socialcontainer a{
   color: white;
+
+}
+
+.home{
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  padding: 45px;
+  font-size: 35px;
+  background-color: black;
+  margin-left: 200px;
+  margin: 500px;
 
 }
