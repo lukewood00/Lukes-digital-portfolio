@@ -12,10 +12,18 @@ body {
   height: 100%;
 }
 
+.body2 {
+  background: url(../Pictures/abstract-astronomy-constellation-1025469.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+}
+
+
 .navbar {
   display: inline;
   text-decoration: none;
-  font-family: 'Righteous', cursive;
+  font-family:'Prosto One', cursive;
   font-size: 25px;
   position: sticky;
 }
@@ -34,8 +42,33 @@ body {
   color: white;
 }
 
+.navbar a : visited {
+  text-decoration: none;
+}
+
+.about2{
+  font-family: 'Prosto One', cursive;
+  color: white;
+  text-align: center;
+  background-color: black;
+  width: 500px;
+  margin-left: 350px;
+  padding: 15px;
+}
+
+.textabout{
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+  color: white;
+  font-family: 'Prosto One', cursive;
+  position: absolute;
+  font-size: 20px;
+}
+
+
 .footer{
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Prosto One', cursive;
   font-size: 18px;
   color: white;
   position: fixed;
@@ -54,7 +87,7 @@ body {
 }
 
 .home{
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Prosto One', cursive;
   color: white;
   padding: 45px;
   font-size: 35px;
@@ -62,6 +95,17 @@ body {
   margin-left: 200px;
   margin: 500px;
 
+}
+
+.about {
+  font-family: 'Prosto One', cursive;
+  color: white;
+  padding: 25px;
+  font-size: 35px;
+  background-color: black;
+  margin-left: 525px;
+  position: absolute;
+  top: 15%;
 }
 
 .section1{
