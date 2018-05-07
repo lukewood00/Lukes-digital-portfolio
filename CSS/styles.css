@@ -70,11 +70,25 @@ body {
   color: white;
   font-family: 'Prosto One', cursive;
   position: absolute;
-  font-size: 20px;
+  font-size: 250%;
   width: 100%;
   padding: .5%
 }
 
+.textprojects{
+  font-family: 'Prosto One', cursive;
+  font-size: 250%;
+  color: white;
+  margin: 20%;
+}
+
+.textprojects a{
+  color: yellow;
+}
+
+.textprojects a : hover{
+  text-decoration: none;
+}
 
 .footer{
   font-family: 'Prosto One', cursive;
