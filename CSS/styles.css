@@ -26,6 +26,13 @@ body {
   height: 100%;
 }
 
+.body4{
+  background: url(../Pictures/forest-haze-landscape-39811.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+}
+
 .navbar {
   display: inline;
   text-decoration: none;
@@ -83,7 +90,7 @@ body {
 }
 
 .textprojects a{
-  color: yellow;
+  color: orange;
 }
 
 .textprojects a : hover{
